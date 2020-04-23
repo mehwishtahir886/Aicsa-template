@@ -529,13 +529,7 @@ display: none;
 .para h2{
     color:#A9CD2E;
 }
-.one:not(:checked) + .label + .slide-img{
-    opacity:0;
-}
-.one:checked + .label + .slide-img{
-    animation:slide 2s;
-    opacity:1;
-}
+
 @keyframes slide{
     0%{
         transform:translatex(100%);}
